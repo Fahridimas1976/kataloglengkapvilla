@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOGYAKARTA LUXURY COLLECTION — Villa, Suites &amp; Resort</title>
+
+    <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#F4F1EA',
+                        forest: '#153B24',
+                        forestDark: '#0F2A1A',
+                        gold: '#B9964E',
+                        goldHover: '#A3813E',
+                        cardBorder: '#E5DFD3',
+                    },
+                    fontFamily: {
+                        display: ['"Playfair Display"', 'Georgia', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        };
+    </script>
+
+    <style>
+        body {
+            background-color: #F4F1EA;
+            color: #153B24;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .font-heading {
+            font-family: 'Playfair Display', Georgia, serif;
+        }
+
+        .card-shadow {
+            box-shadow: 0 12px 30px -8px rgba(21, 59, 36, 0.08), 0 4px 10px -2px rgba(21, 59, 36, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-cream text-forest antialiased min-h-screen flex flex-col justify-between selection:bg-forest selection:text-white">
+
+    <!-- ==================== 1. SIMPLE TOP HEADER ==================== -->
+    <header class="w-full bg-forest text-white border-b border-gold/25">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-3">
+            <!-- Brand Identity -->
+            <a href="#" class="flex items-center gap-3 min-w-0 group">
+                <div class="w-9 h-9 rounded-xl bg-gold/15 border border-gold/50 flex items-center justify-center shrink-0">
+                    <svg class="w-5 h-5 text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 10.5L12 3l9 7.5V20a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1v-9.5z"/>
+                    </svg>
+                </div>
+                <div class="truncate">
+                    <span class="font-heading font-bold tracking-[0.1em] text-sm sm:text-lg text-white block leading-none uppercase group-hover:text-gold transition-colors truncate">
+                        YOGYAKARTA LUXURY COLLECTION
+                    </span>
+                    <span class="text-[9px] sm:text-[10px] tracking-[0.22em] text-gold font-semibold uppercase block mt-1">
+                        VILLA &amp; SUITES INVESTMENT
+                    </span>
+                </div>
+            </a>
+
+            <!-- Direct WhatsApp Button -->
+            <a href="https://wa.me/6285191258855?text=Halo%20Admin,%20saya%20ingin%20tanya%20info%20harga%20beli%20unit%20villa%20%26%20suites%20di%20Yogyakarta."
+               target="_blank"
+               rel="noopener noreferrer"
+               class="shrink-0 bg-gold hover:bg-goldHover text-forestDark font-extrabold text-xs sm:text-sm px-4 sm:px-5 py-2.5 rounded-full shadow-xs transition-all active:scale-95">
+                WhatsApp Admin
+            </a>
+        </div>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main class="max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14 space-y-10 sm:space-y-12 flex-1">
+
+        <!-- ==================== 2. COMPACT HERO HEADING ==================== -->
+        <section class="text-center max-w-2xl mx-auto space-y-3">
+            <h1 class="font-heading text-3xl sm:text-4xl lg:text-[42px] font-bold text-forest leading-tight">
+                Pilih Investasi Villa &amp; Suites Anda
+            </h1>
+            <p class="text-forest/75 text-sm sm:text-base leading-relaxed">
+                Tiga lokasi properti strategis di Yogyakarta untuk kepemilikan unit vila &amp; suite bernilai tinggi.
+            </p>
+        </section>
+
+        <!-- ==================== 3. THREE SIMPLE PROPERTY CARDS ==================== -->
+        <section aria-label="Pilihan Properti Yogyakarta Luxury Collection" class="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-7">
+
+            <!-- CARD 1: MARVILLA HILLS -->
+            <article class="bg-white rounded-3xl overflow-hidden card-shadow border border-cardBorder flex flex-col justify-between group hover:-translate-y-1 transition-all duration-300">
+                <div>
+                    <!-- Top Image with SVG Fallback -->
+                    <div class="relative h-52 overflow-hidden bg-[#EAE5D9]">
+                        <img src="asset/marvilla.jpg"
+                             alt="Marvilla Hills — Villa, Tourism & Spa Pakem Sleman"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 800 500%22%3E%3Cdefs%3E%3ClinearGradient id=%22g1%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%25%22 stop-color=%22%23153B24%22/%3E%3Cstop offset=%22100%25%22 stop-color=%22%2326583A%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%22800%22 height=%22500%22 fill=%22url(%23g1)%22/%3E%3Ccircle cx=%22650%22 cy=%22110%22 r=%2295%22 fill=%22%23B9964E%22 fill-opacity=%220.22%22/%3E%3Ctext x=%2250%25%22 y=%2246%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23B9964E%22 font-family=%22Georgia,serif%22 font-size=%2234%22 font-weight=%22bold%22%3EMARVILLA HILLS%3C/text%3E%3Ctext x=%2250%25%22 y=%2258%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23F4F1EA%22 font-family=%22sans-serif%22 font-size=%2218%22%3EVilla, Tourism %26 Spa%3C/text%3E%3C/svg%3E';"
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent"></div>
+                        <span class="absolute top-3.5 left-3.5 bg-forest/95 text-gold text-[11px] font-bold tracking-wide px-3 py-1 rounded-full">
+                            Pakem, Sleman
+                        </span>
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="p-6 space-y-4">
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-wider text-goldHover block">
+                                Villa, Tourism &amp; Spa
+                            </span>
+                            <h2 class="font-heading text-2xl font-bold text-forest mt-0.5">
+                                Marvilla Hills
+                            </h2>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="flex items-start gap-2 text-xs text-forest/80 bg-cream/80 p-3 rounded-2xl border border-cardBorder">
+                            <svg class="w-4 h-4 text-goldHover shrink-0 mt-0.5" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <span class="leading-relaxed">
+                                Jl. Watugendong, Pakem, Sleman
+                            </span>
+                        </div>
+
+                        <!-- Starting Purchase Price Box -->
+                        <div class="bg-cream border border-gold/40 rounded-2xl px-4 py-3">
+                            <span class="block text-[10px] uppercase tracking-wider text-forest/65 font-bold">
+                                Harga Beli Mulai
+                            </span>
+                            <span class="font-heading text-xl sm:text-2xl font-bold text-forest">
+                                Rp 134 Jt
+                            </span>
+                        </div>
+
+                        <!-- 3 Access & Location Highlights -->
+                        <ul class="text-xs sm:text-[13px] text-forest/85 space-y-2 leading-relaxed">
+                            <li class="flex items-start gap-2">
+                                <span class="text-goldHover font-bold shrink-0">•</span>
+                                <span>6 menit ke Wisata Kaliurang &amp; Kopi Klotok</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-goldHover font-bold shrink-0">•</span>
+                                <span>Kawasan wisata lengkap (Beach Club, Snow Experience, Padel)</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-goldHover font-bold shrink-0">•</span>
+                                <span>Pilihan tipe Glamping, Signature, Premium &amp; Luxury</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card Footer Actions -->
+                <div class="px-6 pb-6 pt-2 flex flex-col gap-2.5">
+                    <a href="https://fahridimas1976.github.io/marvillahills-fahri-/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="w-full inline-flex items-center justify-center bg-forest hover:bg-forestDark text-white font-bold text-xs sm:text-sm py-3.5 px-5 rounded-full shadow-xs transition-all active:scale-95">
+                        Lihat Detail Unit
+                    </a>
+                    <a href="https://maps.app.goo.gl/CVr5HUKrWMUVnY3f8"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="w-full inline-flex items-center justify-center bg-cream hover:bg-[#EAE5D9] text-forest border border-cardBorder font-semibold text-xs py-2.5 px-4 rounded-full transition-colors">
+                        Google Maps ↗
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 2: LUMINA SUITES -->
+            <article class="bg-white rounded-3xl overflow-hidden card-shadow border border-cardBorder flex flex-col justify-between group hover:-translate-y-1 transition-all duration-300">
+                <div>
+                    <!-- Top Image with SVG Fallback -->
+                    <div class="relative h-52 overflow-hidden bg-[#EAE5D9]">
+                        <img src="asset/lumina.jpg"
+                             alt="Lumina Suites — Boutique Suites & Investment Palagan Yogyakarta"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 800 500%22%3E%3Cdefs%3E%3ClinearGradient id=%22g2%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%25%22 stop-color=%22%231A3F2B%22/%3E%3Cstop offset=%22100%25%22 stop-color=%22%232E523F%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%22800%22 height=%22500%22 fill=%22url(%23g2)%22/%3E%3Ccircle cx=%22650%22 cy=%22110%22 r=%2295%22 fill=%22%23B9964E%22 fill-opacity=%220.22%22/%3E%3Ctext x=%2250%25%22 y=%2246%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23B9964E%22 font-family=%22Georgia,serif%22 font-size=%2234%22 font-weight=%22bold%22%3ELUMINA SUITES%3C/text%3E%3Ctext x=%2250%25%22 y=%2258%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23F4F1EA%22 font-family=%22sans-serif%22 font-size=%2218%22%3EBoutique Suites %26 Wellness%3C/text%3E%3C/svg%3E';"
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent"></div>
+                        <span class="absolute top-3.5 left-3.5 bg-forest/95 text-gold text-[11px] font-bold tracking-wide px-3 py-1 rounded-full">
+                            Palagan, Yogyakarta
+                        </span>
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="p-6 space-y-4">
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-wider text-goldHover block">
+                                Boutique Suites &amp; Wellness
+                            </span>
+                            <h2 class="font-heading text-2xl font-bold text-forest mt-0.5">
+                                Lumina Suites
+                            </h2>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="flex items-start gap-2 text-xs text-forest/80 bg-cream/80 p-3 rounded-2xl border border-cardBorder">
+                            <svg class="w-4 h-4 text-goldHover shrink-0 mt-0.5" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <span class="leading-relaxed">
+                                Jl. Palagan Tentara Pelajar KM 8, Ngaglik, Sleman
+                            </span>
+                        </div>
+
+                        <!-- Starting Purchase Price Box -->
+                        <div class="bg-cream border border-gold/40 rounded-2xl px-4 py-3">
+                            <span class="block text-[10px] uppercase tracking-wider text-forest/65 font-bold">
+                                Harga Beli Mulai
+                            </span>
+                            <span class="font-heading text-xl sm:text-2xl font-bold text-forest">
+                                Rp 295 Jt
+                            </span>
+                        </div>
+
+                        <!-- 3 Access & Location Highlights -->
+                        <ul class="text-xs sm:text-[13px] text-forest/85 space-y-2 leading-relaxed">
+                            <li class="flex items-start gap-2">
+                                <span class="text-goldHover font-bold shrink-0">•</span>
+                                <span>Paling dekat pusat kota Jogja (10 menit ke Monjali &amp; SCH)</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-goldHover font-bold shrink-0">•</span>
+                                <span>15 menit ke Kampus UGM &amp; kawasan Malioboro</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-goldHover font-bold shrink-0">•</span>
+                                <span>Koridor bisnis &amp; kuliner premium Palagan Utara</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card Footer Actions -->
+                <div class="px-6 pb-6 pt-2 flex flex-col gap-2.5">
+                    <a href="https://fahridimas1976.github.io/lumina-fahri-/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="w-full inline-flex items-center justify-center bg-forest hover:bg-forestDark text-white font-bold text-xs sm:text-sm py-3.5 px-5 rounded-full shadow-xs transition-all active:scale-95">
+                        Lihat Detail Unit
+                    </a>
+                    <a href="https://maps.app.goo.gl/rTq9BFk8VPCUrLrdA"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="w-full inline-flex items-center justify-center bg-cream hover:bg-[#EAE5D9] text-forest border border-cardBorder font-semibold text-xs py-2.5 px-4 rounded-full transition-colors">
+                        Google Maps ↗
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 3: SAKHA VILLA -->
+            <article class="bg-white rounded-3xl overflow-hidden card-shadow border border-cardBorder flex flex-col justify-between group hover:-translate-y-1 transition-all duration-300">
+                <div>
+                    <!-- Top Image with SVG Fallback -->
+                    <div class="relative h-52 overflow-hidden bg-[#EAE5D9]">
+                        <img src="asset/shaka.jpg"
+                             alt="Shaka Villa — Private Tropical Sanctuary Kaliurang Sleman"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 800 500%22%3E%3Cdefs%3E%3ClinearGradient id=%22g3%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%25%22 stop-color=%22%23243326%22/%3E%3Cstop offset=%22100%25%22 stop-color=%22%23153B24%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%22800%22 height=%22500%22 fill=%22url(%23g3)%22/%3E%3Ccircle cx=%22650%22 cy=%22110%22 r=%2295%22 fill=%22%23B9964E%22 fill-opacity=%220.22%22/%3E%3Ctext x=%2250%25%22 y=%2246%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23B9964E%22 font-family=%22Georgia,serif%22 font-size=%2234%22 font-weight=%22bold%22%3ESAKHA VILLA%3C/text%3E%3Ctext x=%2250%25%22 y=%2258%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23F4F1EA%22 font-family=%22sans-serif%22 font-size=%2218%22%3EPrivate Tropical Sanctuary%3C/text%3E%3C/svg%3E';"
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent"></div>
+                        <span class="absolute top-3.5 left-3.5 bg-forest/95 text-gold text-[11px] font-bold tracking-wide px-3 py-1 rounded-full">
+                            Kaliurang, Sleman
+                        </span>
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="p-6 space-y-4">
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-wider text-goldHover block">
+                                Private Tropical Sanctuary
+                            </span>
+                            <h2 class="font-heading text-2xl font-bold text-forest mt-0.5">
+                                Shaka Villa
+                            </h2>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="flex items-start gap-2 text-xs text-forest/80 bg-cream/80 p-3 rounded-2xl border border-cardBorder">
+                            <svg class="w-4 h-4 text-goldHover shrink-0 mt-0.5" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <span class="leading-relaxed">
+                                Jl. Kaliurang KM 14,5, Ngemplak, Sleman
+                            </span>
+                        </div>
+
+                        <!-- Starting Purchase Price Box -->
+                        <div class="bg-cream border border-gold/40 rounded-2xl px-4 py-3">
+                            <span class="block text-[10px] uppercase tracking-wider text-forest/65 font-bold">
+                                Harga Beli Mulai
+                            </span>
+                            <span class="font-heading text-xl sm:text-2xl font-bold text-forest">
+                                Rp 485 Jt
+                            </span>
+                        </div>
+
+                        <!-- 3 Access & Location Highlights -->
+                        <ul class="text-xs sm:text-[13px] text-forest/85 space-y-2 leading-relaxed">
+                            <li class="flex items-start gap-2">
+                                <span class="text-goldHover font-bold shrink-0">•</span>
+                                <span>5 menit ke Kampus Terpadu UII Jakal</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-goldHover font-bold shrink-0">•</span>
+                                <span>12 menit ke Taman Wisata Kaliurang &amp; Ullen Sentalu</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-goldHover font-bold shrink-0">•</span>
+                                <span>Konsep private tropical villa eksklusif dengan opsi private pool</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card Footer Actions -->
+                <div class="px-6 pb-6 pt-2 flex flex-col gap-2.5">
+                    <a href="https://fahridimas1976.github.io/sakha-fahri-/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="w-full inline-flex items-center justify-center bg-forest hover:bg-forestDark text-white font-bold text-xs sm:text-sm py-3.5 px-5 rounded-full shadow-xs transition-all active:scale-95">
+                        Lihat Detail Unit
+                    </a>
+                    <a href="https://maps.app.goo.gl/bRv95Gyhb5nHMNow9"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="w-full inline-flex items-center justify-center bg-cream hover:bg-[#EAE5D9] text-forest border border-cardBorder font-semibold text-xs py-2.5 px-4 rounded-full transition-colors">
+                        Google Maps ↗
+                    </a>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <!-- ==================== 4. SIMPLE FOOTER ==================== -->
+    <footer class="bg-forest text-white border-t border-gold/25">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+            <div class="text-xs text-white/85">
+                <strong class="font-heading tracking-wider text-white uppercase">Yogyakarta Luxury Collection</strong>
+                <span class="hidden sm:inline mx-2 text-gold">•</span>
+                <span class="block sm:inline mt-0.5 sm:mt-0">
+                    WhatsApp Marketing:
+                    <a href="https://wa.me/6285191258855?text=Halo%20Admin,%20saya%20ingin%20tanya%20info%20harga%20beli%20unit%20villa%20%26%20suites%20di%20Yogyakarta."
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="text-gold font-bold hover:underline">
+                        +62 851-9125-8855
+                    </a>
+                </span>
+            </div>
+            <p class="text-xs text-white/70">
+                &copy; 2026 Yogyakarta Luxury Collection. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
